@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Cyril Nosike, a WordPress eCommerce Developer">
+  <title>Cyril Nosike | WordPress eCommerce Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; background: #fff; color: #333; line-height: 1.6; padding: 1rem; }
+    header { text-align: center; padding: 2rem 1rem; background: #f5f5f5; }
+    header h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+    header p { font-size: 1.1rem; color: #555; }
+    section { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+    .section-title { font-size: 1.5rem; margin-bottom: 1rem; color: #222; }
+    .project { margin-bottom: 2rem; }
+    .project h3 { font-size: 1.2rem; color: #000; }
+    .project a { color: #1a73e8; text-decoration: none; }
+    .skills { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .skill { background: #e0e0e0; padding: 0.4rem 0.8rem; border-radius: 20px; font-size: 0.9rem; }
+    footer { text-align: center; margin: 3rem auto 1rem; font-size: 0.9rem; color: #777; }
+    .contact { margin-top: 1rem; }
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.5rem; }
+      .section-title { font-size: 1.2rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Cyril Nosike</h1>
+    <p>WordPress eCommerce Developer</p>
+  </header>
+
+  <section>
+    <h2 class="section-title">About Me</h2>
+    <p>I am an experienced developer with passion to build next gen solutions on the World Wide Web.</p>
+  </section>
+
+  <section>
+    <h2 class="section-title">Skills & Tools</h2>
+    <div class="skills">
+      <span class="skill">WordPress</span>
+      <span class="skill">Elementor</span>
+      <span class="skill">WooCommerce</span>
+      <span class="skill">HTML</span>
+      <span class="skill">CSS</span>
+      <span class="skill">SEO</span>
+      <span class="skill">Generative AI</span>
+      <span class="skill">Python</span>
+      <span class="skill">Java</span>
+      <span class="skill">C</span>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Projects</h2>
+    <div class="project">
+      <h3><a href="https://structechinterior.com" target="_blank">Structech Interior</a></h3>
+      <p>Interior design brand site with product showcase, mobile optimization and WooCommerce integration.</p>
+    </div>
+    <div class="project">
+      <h3><a href="https://q21essentials.com" target="_blank">Q21 Essentials</a></h3>
+      <p>Natural skincare eCommerce store with product filtering, customer reviews, and responsive design.</p>
+    </div>
+    <div class="project">
+      <h3><a href="https://cibusbyjk.com" target="_blank">Cibus by JK</a></h3>
+      <p>Restaurant brand site featuring online ordering, menu display, and clean user experience.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Contact</h2>
+    <p>Email: <a href="mailto:finehart7@gmail.com">finehart7@gmail.com</a></p>
+    <p>Phone/WhatsApp: <a href="https://wa.me/2348103122234">+234 810 312 2234</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Cyril Nosike. All rights reserved.
+  </footer>
+</body>
+</html>
